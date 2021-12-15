@@ -10,12 +10,42 @@ a {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .header {
     color: #F9FAF8;
     font-weight: 24px;
     font-weight: bold;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.sidebar {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: lighter;
+
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.secondary{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 500px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.secondary .Hero-Title .Hero-Secondary {
+    flex: 1;
+    padding: 10px;
 }
 
 .top {
@@ -45,6 +75,12 @@ img {
     object-position: center;
 }
 
+.placeholder {
+    height: 250px;
+    width: 500px;
+  
+}
+
 button {
     color: white;
     background-color: #3882F6;
@@ -53,8 +89,16 @@ button {
 
 .first-button {
     border-radius: 8px;
-    padding: 5px 15px;
+    padding: 10px 15px;
     border-style: none;
+    width: 100px;
+    font-weight: bold;
+}
+
+.middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .middle-title {
