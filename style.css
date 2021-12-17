@@ -49,6 +49,61 @@ body {
     font-weight: bold;
 }
 
+.Hero {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10rem;
+    width: 400px;
+}
+
+.Hero-Container {
+    display: flex;
+    align-items: center;
+    height: 550px;
+}   
+
+.Hero-Title {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.Hero-Secondary {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 220;
+    margin-top: 15px;
+}
+
+button {
+    color: white;
+    background-color: #3882F6;
+    border-style: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 18px;
+    width: 150px;
+    margin: 15px 0px;
+}
+
+.Hero-Placeholder {
+    margin-left: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.placeholder {
+    height: auto;
+    width: 400px;
+    margin-right: 10rem;
+    margin-left: 2rem;
+    margin-top: 4.5rem;
+}
+
+
+
+
+
 
 /*
 .header {
@@ -73,7 +128,7 @@ body {
     justify-content: flex-end;
     align-items: center;
 }
-*/
+
 
 .secondary{
     display: flex;
@@ -179,3 +234,4 @@ button {
     color: #E5E7EB;
     font-size: 12px;
 }
+*/
