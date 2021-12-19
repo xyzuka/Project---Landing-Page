@@ -53,13 +53,14 @@ body {
     display: flex;
     flex-direction: column;
     margin-left: 10rem;
-    width: 400px;
 }
 
 .Hero-Container {
     display: flex;
     align-items: center;
-    height: 550px;
+    height: 500px;
+    justify-content: center;
+    flex-direction: row;
 }   
 
 .Hero-Title {
@@ -87,17 +88,19 @@ button {
 }
 
 .Hero-Placeholder {
-    margin-left: auto;
-    object-fit: cover;
-    object-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
 .placeholder {
+    margin-left: auto;
+    object-fit: cover;
+    object-position: center;
     height: auto;
     width: 400px;
     margin-right: 10rem;
     margin-left: 2rem;
-    margin-top: 4.5rem;
 }
 
 
