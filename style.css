@@ -149,7 +149,31 @@ img {
     padding-top: 5px;
 }
 
+.quote-container {
+    background-color: #E5E7EB;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;    
+    padding: 0 5rem;
+    text-align: justify;
+}
+
+.quote-speaker {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: right;
+    margin-right: 5rem;
+    margin-top: -2rem;
+}
 
 
 /* INITAL BRAINSTORMING CSS
