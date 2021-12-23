@@ -226,6 +226,14 @@ img {
     height: fit-content; 
 }
 
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    text-align: center;
+    margin: 40px 0;
+}
+
 /* INITAL BRAINSTORMING CSS
 
 
