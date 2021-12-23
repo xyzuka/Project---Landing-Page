@@ -130,7 +130,7 @@ button {
 .photo {
     width: 160px;
     height: 160px;
-    border: 5px solid #3882F6;;
+    border: 5px solid #3882F6;
     border-radius: 15px;
 }
 
@@ -175,6 +175,56 @@ img {
     margin-top: -2rem;
 }
 
+.CTA-text-title {
+    color: #E5E7EB;
+    font-size: 19px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.CTA-text-subtitle {
+    color: #E5E7EB;
+    font-size: 18px;
+    /* removed width:450px; which was keeping my subtitle stuck due to the specified px */
+}
+
+.CTA-Col-1 {
+    padding: 40px 50px;
+    /* the following three elements and .CTA-Cola-2 were added and fixed my issues - just had to separate the text and button into two separate divs and apply flex to space-between */
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+
+.CTA-Col-2 {
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.CTA-background {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 300px;
+}
+
+.blue-container {
+    display: flex;
+    background-color: #3882F6;
+    margin: 5px 5rem;
+    border-radius: 10px;
+    align-items: space-between;
+}
+
+.CTA-button {
+    border-radius: 8px;
+    width: 220px;
+    padding: 5px 15px;
+    border: 2px solid white;
+    height: fit-content; 
+}
 
 /* INITAL BRAINSTORMING CSS
 
