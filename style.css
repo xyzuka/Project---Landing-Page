@@ -76,6 +76,11 @@ body {
     margin-top: 15px;
 }
 
+.Hero-Button a {
+    text-decoration: none;
+    color: #E5E7EB; 
+}
+
 button {
     color: white;
     background-color: #3882F6;
@@ -224,6 +229,12 @@ img {
     padding: 5px 15px;
     border: 2px solid white;
     height: fit-content; 
+    list-style: none;
+}
+
+.CTA-button a {
+    text-decoration: none;
+    color: #E5E7EB; 
 }
 
 .footer {
@@ -232,6 +243,11 @@ img {
     font-size: 18px;
     text-align: center;
     margin: 40px 0;
+}
+
+.footer-text a {
+        text-decoration: none;
+        color: #E5E7EB; 
 }
 
 /* INITAL BRAINSTORMING CSS
